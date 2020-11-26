@@ -5,5 +5,6 @@ Web scraping is a technique used to extract data from websites using a script. W
 # How to use
 1. In the keys folder, paste the service key of the GCP project.
 2. Run the following commands in terminal :
-    i) $env:GOOGLE_APPLICATION_CREDENTIALS="path of the service key"
-    ii) nodemon index.js
+    i) npm i
+    ii) $env:GOOGLE_APPLICATION_CREDENTIALS="path of the service key"
+    iii) nodemon index.js
