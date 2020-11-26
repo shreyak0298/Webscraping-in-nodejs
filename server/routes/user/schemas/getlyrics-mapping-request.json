@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "required": [
+      "singer",
+      "song"
+    ],
+    "properties": {
+      "singer": {
+        "type": "string",
+        "minLength": 2
+      },
+      "song": {
+          "type": "string",
+          "minLength": 2
+      }
+    },
+        
+      "errorMessage": {
+      "properties": {
+        "singer": "Enter valid artist name",
+        "song": "Enter valid track name"
+      }
+    }
+  }
